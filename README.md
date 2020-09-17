@@ -5,14 +5,14 @@ In this repository, we mainly focus on deep learning based saliency methods (**2
 --------------------------------------------------------------------------------------
  :heavy_exclamation_mark:  **2D SOD**: Add five papesr ECCV20                  
  :heavy_exclamation_mark:  **3D SOD**: Add nine papers ECCV20 and two ACMM20 papers   
- :heavy_exclamation_mark:  **Video SOD** : Add three papers ECCV20, **Continuously Updating!** 
+ :heavy_exclamation_mark:  **Video SOD** : Add three papers ECCV20 and one paper TIP, **Continuously Updating!** 
 
 :running: **We will keep updating it.** :running:    
 --------------------------------------------------------------------------------------
 
 
 ------
-
+ 
 
 ## Content:
 
@@ -48,10 +48,11 @@ In this repository, we mainly focus on deep learning based saliency methods (**2
 10 | **CVPR** | Label Decoupling Framework for Salient Object Detection | [Paper](http://openaccess.thecvf.com/content_CVPR_2020/papers/Wei_Label_Decoupling_Framework_for_Salient_Object_Detection_CVPR_2020_paper.pdf)/[Code](https://github.com/weijun88/LDF)  
 11 | **CVPR** | Adaptive Graph Convolutional Network with Attention Graph Clustering for Co-saliency Detection | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Adaptive_Graph_Convolutional_Network_With_Attention_Graph_Clustering_for_Co-Saliency_CVPR_2020_paper.pdf)/Code
 :triangular_flag_on_post: 12 | **ECCV** | Highly Efficient Salient Object Detection with 100K Parameters | [Paper](http://mftp.mmcheng.net/Papers/20EccvSal100k.pdf)/[Code](https://github.com/MCG-NKU/Sal100K)
-:triangular_flag_on_post: 13 | **ECCV** | n-Reference Transfer Learning for Saliency Prediction | Paper/Code   
-:triangular_flag_on_post: 14 | **ECCV** | Gradient-Induced Co-Saliency Detection | Paper/Code    
-:triangular_flag_on_post: 13 | **ECCV** | Learning Noise-Aware Encoder-Decoder from Noisy Labels by Alternating Back-Propagation for Saliency Detection | Paper/Code  
+:triangular_flag_on_post: 13 | **ECCV** | n-Reference Transfer Learning for Saliency Prediction | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530494.pdf)/Code   
+:triangular_flag_on_post: 14 | **ECCV** | Gradient-Induced Co-Saliency Detection | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123570443.pdf)/[Code](http://zhaozhang.net/coca.html)   
+:triangular_flag_on_post: 13 | **ECCV** | Learning Noise-Aware Encoder-Decoder from Noisy Labels by Alternating Back-Propagation for Saliency Detection | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123620341.pdf)/[Code](https://github.com/JingZhang617/Noise-aware-ABP-Saliency)  
 :triangular_flag_on_post: 15 | **ECCV** | Suppress and Balance: A Simple Gated Network for Salient Object Detection | [Paper](https://arxiv.org/pdf/2007.08074.pdf)/[Code](https://github.com/Xiaoqi-Zhao-DLUT/GateNet-RGB-Saliency) 
+:triangular_flag_on_post: 16 | **IEEE TIP** | Dynamic Feature Integration for Simultaneous Detection of Salient Object, Edge and Skeleton | [Paper](http://mftp.mmcheng.net/Papers/20TIP-DFI.pdf)/[Code](https://github.com/backseason/DFI)
 
   
 
@@ -152,13 +153,16 @@ In this repository, we mainly focus on deep learning based saliency methods (**2
 :triangular_flag_on_post: 08 | **ECCV** | Cross-Modal Weighting Network for RGB-D Salient Object Detection | [Paper](https://arxiv.org/pdf/2007.04901.pdf)/[Code](https://github.com/MathLee/CMWNet)
 :triangular_flag_on_post: 09 | **ECCV** | BBS-Net: RGB-D Salient Object Detection with a Bifurcated Backbone Strategy Network | [Paper](https://arxiv.org/pdf/2007.02713.pdf)/[Code](https://github.com/zyjwuyan/BBS-Net)
 :triangular_flag_on_post: 10 | **ECCV** | Hierarchical Dynamic Filtering Network for RGB-D Salient Object Detection | [Paper](https://arxiv.org/pdf/2007.06227.pdf)/[Code](https://github.com/lartpang/HDFNet)
-:triangular_flag_on_post: 11 | **ECCV** | Progressively Guided Alternate Refinement Network for RGB-D Salient Object Detection | Paper/[Code](https://github.com/ShuhanChen/PGAR_ECCV20)
+:triangular_flag_on_post: 11 | **ECCV** | Progressively Guided Alternate Refinement Network for RGB-D Salient Object Detection | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530511.pdf)/[Code](https://github.com/ShuhanChen/PGAR_ECCV20)
 :triangular_flag_on_post: 12 | **ECCV** | RGB-D Salient Object Detection with Cross-Modality Modulation and Selection | [Paper](https://arxiv.org/pdf/2007.07051.pdf)/Code
 :triangular_flag_on_post: 13 | **ECCV** | Cascade Graph Neural Networks for RGB-D Salient Object Detection | [Paper](https://arxiv.org/pdf/2008.03087.pdf)/[Code](https://github.com/LA30/Cas-Gnn)   
 :triangular_flag_on_post: 14 | **ECCV** | A Single Stream Network for Robust and Real-time RGB-D Salient Object Detection | [Paper](https://arxiv.org/pdf/2007.06811.pdf)/[Code](https://github.com/Xiaoqi-Zhao-DLUT/DANet-RGBD-Saliency)  
-:triangular_flag_on_post: 15 | **ECCV** | Asymmetric Two-Stream Architecture for Accurate RGB-D Saliency Detection | [Paper](https://drive.google.com/file/d/1JuaGfxyHYRBLGpVEadRE9bbgITHz1TEa/view?usp=sharing)/[Code](https://github.com/sxfduter/ASTA)   
+:triangular_flag_on_post: 15 | **ECCV** | Asymmetric Two-Stream Architecture for Accurate RGB-D Saliency Detection | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730375.pdf)/[Code](https://github.com/sxfduter/ASTA)   
 :triangular_flag_on_post: 16 | **ACMM** | Is Depth Really Necessary for Salient Object Detection? | [Paper](https://arxiv.org/pdf/2006.00269.pdf)/[Code](https://github.com/JiaweiZhao-git/DASNet)
 :triangular_flag_on_post: 17 | **ACMM** | A Top-down and Adaptive Fusion Network for RGB-D Salient Object Detection | Paper/[Code](https://github.com/jack-admiral/ACM-MM-FRDT)
+:triangular_flag_on_post: 18 | **IEEE TIP** | RGBD Salient Object Detection via Disentangled Cross-Modal Fusion | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9165931)/[Code](https://github.com/haochen593/Disen_Fuse_TIP2020)
+:triangular_flag_on_post: 19 | **IEEE TIP** | Improved Saliency Detection in RGB-D Images Using Two-Phase Depth Estimation and Selective Deep Fusion | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8976428)/Code
+
 
 
 
@@ -222,9 +226,10 @@ In this repository, we mainly focus on deep learning based saliency methods (**2
 **No.** | **Pub.** | **Title** | **Links** 
 :-: | :-: | :-  | :-: 
 01 | **CVPR** | STAViS: Spatio-Temporal AudioVisual Saliency Network | [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Tsiami_STAViS_Spatio-Temporal_AudioVisual_Saliency_Network_CVPR_2020_paper.pdf)/Code  
-:triangular_flag_on_post: 02 | **ECCV** | Unified Image and Video Saliency Modeling | Paper/Code  
-:triangular_flag_on_post: 03 | **ECCV** | Measuring the importance of temporal features in video saliency | Paper/Code  
-:triangular_flag_on_post: 04 | **ECCV** | TENet: Triple Excitation Network for Video Salient Object Detection | Paper/[Code](https://github.com/OliverRensu/TENet-Triple-Excitation-Network-for-Video-Salient-Object-Detection) 
+:triangular_flag_on_post: 02 | **ECCV** | Unified Image and Video Saliency Modeling | [Paper](https://arxiv.org/pdf/2003.05477.pdf)/[Code](https://github.com/rdroste/unisal)    
+:triangular_flag_on_post: 03 | **ECCV** | Measuring the importance of temporal features in video saliency | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730664.pdf)/Code  
+:triangular_flag_on_post: 04 | **ECCV** | TENet: Triple Excitation Network for Video Salient Object Detection | [Paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500205.pdf)/[Code](https://github.com/OliverRensu/TENet-Triple-Excitation-Network-for-Video-Salient-Object-Detection) 
+:triangular_flag_on_post: 05 | **IEEE TIP** | Learning Long-term Structural Dependencies for Video Salient Object Detection | Paper/[Code](https://github.com/bowangscut/LSD_GCN-for-VSOD)  
 
 ## 2019  
 **No.** | **Pub.** | **Title** | **Links** 
